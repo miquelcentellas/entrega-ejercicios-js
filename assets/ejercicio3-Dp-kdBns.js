@@ -1,0 +1,1 @@
+import"./main-BtjXsWXH.js";const n=document.getElementsByTagName("button")[0],e=document.getElementById("input"),l=document.getElementById("list");n.addEventListener("click",()=>{const t=document.createElement("li");t.textContent=e.value,l.appendChild(t),e.value=""});

@@ -1,0 +1,1 @@
+import"./main-BtjXsWXH.js";const e=document.querySelector("button");let t=0;document.addEventListener("click",()=>{t++});e.addEventListener("click",()=>{document.getElementById("clickCount").textContent=t,t--});

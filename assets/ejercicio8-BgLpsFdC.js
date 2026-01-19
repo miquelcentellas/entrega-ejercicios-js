@@ -1,0 +1,1 @@
+import"./main-BtjXsWXH.js";const e=document.getElementById("textInput"),r=document.getElementById("wordCount"),s=document.getElementById("charCount");e.addEventListener("input",()=>{const t=e.value,n=t.replace(/\s/g,"").length;s.textContent=n;const o=t.trim().split(/\s+/).filter(c=>c.length>0);r.textContent=t.trim()===""?0:o.length});

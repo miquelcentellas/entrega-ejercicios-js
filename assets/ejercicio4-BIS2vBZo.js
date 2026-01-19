@@ -1,0 +1,1 @@
+import"./main-BtjXsWXH.js";const t=document.getElementById("input"),o=document.querySelectorAll("li");t.addEventListener("input",()=>{const n=t.value.toLowerCase();o.forEach(e=>{e.textContent.toLowerCase().includes(n)?e.style.display="list-item":e.style.display="none"})});
