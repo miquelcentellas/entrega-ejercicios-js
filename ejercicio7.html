@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 7</title>
+  </head>
+  <body>
+    <h1>Ejercicio 7</h1>
+    <h2>Generador de Contraseñas Aleatorias</h2>
+
+    <label for="length">Longitud de la contraseña:</label>
+    <input type="number" id="length" value="12" min="4" max="24" />
+    <div>
+      <label for="password-display">Contraseña generada:</label>
+      <input type="text" id="password-display" readonly />
+    </div>
+
+    <div style="padding-top: 10px">
+      <button id="generate">Generar</button>
+    </div>
+    <button style="display: block; margin-top: 10px">
+      <a href="index.html">Atrás</a>
+    </button>
+
+    <script type="module" src="./src/ejercicio7.js"></script>
+  </body>
+</html>
